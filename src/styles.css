@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .app {
+    display: flex;
+  }
+  
+  .main-content {
+    display: flex;
+    flex-grow: 1;
+  }
+  
+  .page-content {
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 10px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    background-color: #333;
+  }
+  
+  nav li {
+    padding: 10px 15px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  

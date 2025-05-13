@@ -1,0 +1,45 @@
+/* Sidebar Style */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #343a40;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1050;
+  }
+  
+  .sidebar.collapsed {
+    transform: translateX(-100%);
+  }
+  
+  .sidebar.open {
+    transform: translateX(0);
+  }
+  
+  /* Make sure when sidebar is collapsed, content has margin */
+  .main-content {
+    transition: margin-left 0.3s ease-in-out;
+  }
+  
+  .sidebar.collapsed ~ .main-content {
+    margin-left: 0;
+  }
+  
+  .sidebar.open ~ .main-content {
+    margin-left: 250px; /* Adjust this according to the width of your sidebar */
+  }
+  
+  /* Only apply this for larger screens */
+  @media (min-width: 768px) {
+    .sidebar {
+      transform: translateX(0) !important;
+    }
+  
+    .sidebar.collapsed ~ .main-content {
+      margin-left: 250px;
+    }
+  }
+  
