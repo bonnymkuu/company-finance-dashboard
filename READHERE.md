@@ -118,3 +118,8 @@ For a business company website, there are several key features and sections you 
 
 * **Responsive Design**: Ensure the site is mobile-friendly and optimized for all devices.
 * **Mobile App Integration**: If your business has a mobile app, you can link the app to the website for seamless usage.
+<<<<<<< HEAD
+=======
+
+---
+>>>>>>> 40d79bf (Resolved merge conflicts)
