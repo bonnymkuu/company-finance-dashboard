@@ -1,0 +1,61 @@
+/* Make sure this CSS file is imported in LegalPage.jsx */
+
+.legal-page-container {
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent dark background */
+    color: #f0f0f0; /* Light text for contrast */
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 900px;
+    margin: 40px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.8);
+    line-height: 1.6;
+  }
+  
+  .legal-page-container h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 8px rgba(0,0,0,0.8);
+  }
+  
+  .legal-page-container h2 {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #00bfff;
+    padding-bottom: 0.3rem;
+    color: #00bfff;
+  }
+  
+  .legal-page-container p, 
+  .legal-page-container ul {
+    font-size: 1rem;
+    color: #ddd;
+    margin-bottom: 1rem;
+  }
+  
+  .legal-page-container ul {
+    padding-left: 1.2rem;
+  }
+  
+  .legal-page-container ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 600px) {
+    .legal-page-container {
+      padding: 20px;
+      margin: 20px;
+    }
+    .legal-page-container h1 {
+      font-size: 2rem;
+    }
+    .legal-page-container h2 {
+      font-size: 1.5rem;
+    }
+  }
+  

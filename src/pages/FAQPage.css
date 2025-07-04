@@ -1,0 +1,37 @@
+/* FAQPage.css */
+details {
+  transition: all 0.3s ease;
+}
+
+details[open] {
+  padding-bottom: 1rem;
+}
+
+details summary {
+  outline: none;
+  transition: color 0.2s ease;
+}
+
+details summary:hover {
+  opacity: 0.9;
+}
+
+/* Dark mode specific styles */
+[data-bs-theme="dark"] details {
+  background-color: #2c3034;
+  border-color: #444 !important;
+}
+
+[data-bs-theme="dark"] details summary {
+  color: #ffc107;
+}
+
+/* Light mode specific styles */
+[data-bs-theme="light"] details {
+  background-color: #f8f9fa;
+  border-color: #dee2e6 !important;
+}
+
+[data-bs-theme="light"] details summary {
+  color: #0d6efd;
+}
