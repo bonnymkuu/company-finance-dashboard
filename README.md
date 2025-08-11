@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # React + Vite
 =======
 # 🚀 Business Management System: Empowering Your Enterprise
