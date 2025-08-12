@@ -266,12 +266,11 @@ For a business company website, there are several key features and sections you 
 
 * **Responsive Design**: Ensure the site is mobile-friendly and optimized for all devices.
 * **Mobile App Integration**: If your business has a mobile app, you can link the app to the website for seamless usage.
-<<<<<<< HEAD
+
 =======
 
 ---
->>>>>>> 40d79bf (Resolved merge conflicts)
-=======
+
 * [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
 * [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
@@ -296,4 +295,4 @@ We welcome contributions! Please feel free to open issues or submit pull request
 ## 📞 Contact
 
 [BonnyMKuu] - [bonnymkuu3939@gmail.com]
->>>>>>> ff0a16a (small commit)
+
