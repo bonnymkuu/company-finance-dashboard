@@ -1,6 +1,6 @@
 
 # React + Vite
-=======
+
 # 🚀 Business Management System: Empowering Your Enterprise
 
 ![Dashboard Screenshot ](./public/bizmn.png) 
